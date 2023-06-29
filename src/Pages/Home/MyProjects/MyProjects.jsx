@@ -1,8 +1,9 @@
+import SectionTitle from "../../../components/SectionTitle";
 
 const MyProjects = () => {
     return (
         <div>
-            <h2>This is my projects</h2>
+            <SectionTitle sectionHeader={'My Projects'} sectionSubHeader={'Projects I have built'}></SectionTitle>
         </div>
     );
 };

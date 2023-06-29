@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const centerNavItems = (
     <>
-      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text-white text-[18px] font-medium cursor-pointer`} to={"/"}>Home</NavLink>
-      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text-white text-[18px] font-medium cursor-pointer`} to={"/projects"}>Projects</NavLink>
-      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text-white text-[18px] font-medium cursor-pointer`} to={"/about-me"}>About Me</NavLink>
+      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/"}>Home</NavLink>
+      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/projects"}>Projects</NavLink>
+      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/about-me"}>About Me</NavLink>
       
     </>
   );
