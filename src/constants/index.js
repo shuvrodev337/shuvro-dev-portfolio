@@ -25,6 +25,9 @@ import {
   threejs,
 } from "../assets";
 
+import samurai from '../assets/projects-images/samurai.png'
+import toy from '../assets/projects-images/toy.png'
+import cook from '../assets/projects-images/cook.png'
 export const navLinks = [
   {
     id: "about",
@@ -198,9 +201,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Samurai Summer Camp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a website of a Martial Art School where users can enroll in classes under various instructors. There is Admin, Instructor and User dashboard functionality. User, Admin feedback, enrollment, payment, dark-light mode and many other functionalities.Technologies used: ReactJS ,TailwindCSS,StripeJS,Firebase, JWT verification,express,MongoDB and mnay other tools.",
     tags: [
       {
         name: "react",
@@ -215,13 +218,15 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: samurai,
+    live_site: 'https://samurai-summer-camp-client.web.app/',
+    source_code_client: "https://github.com/shuvrodev337/samurai-summer-camp-client",
+    source_code_server: "https://github.com/shuvrodev337/samurai-summer-camp-server",
   },
   {
-    name: "Job IT",
+    name: "Toy Troopers",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is a Toy Marketplace website where users can add toys from add , update, delete their toys. Then shop for toys by their Category.Technologies used: ReactJS ,TailwindCSS, DaisyUI, Firebase Authentication, ExpressJS, MongoDB etc.",
     tags: [
       {
         name: "react",
@@ -236,13 +241,15 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: toy,
+    live_site: 'https://toy-troopers.web.app/',
+    source_code_client: " https://github.com/shuvrodev337/toy-troopers",
+    source_code_server: "https://github.com/shuvrodev337/toy-troopers-server",
   },
   {
-    name: "Trip Guide",
+    name: "Cook Like a Chef",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is An Italian Chefs and Cooking Recipe website where users can know about the best chefs and their information, Italian recipes etc.Technologies used: ReactJS ,Bootstrap, React Bootstrap, Firebase Authentication, ExpressJS etc.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +264,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cook,
+    live_site: 'https://cook-like-a-chef-89700.web.app/',
+    source_code_client: "https://github.com/shuvrodev337/cook--like-a-chef-client",
+    source_code_server: "https://github.com/shuvrodev337/cook-like-a-chef-server",
   },
 ];
 

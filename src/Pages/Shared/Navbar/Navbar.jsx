@@ -14,12 +14,12 @@ const Navbar = () => {
 
   </>
   return (
-    <div className="navbar h-20 mb-2 px-6  max-w-screen-2xl ">
+    <div className="navbar h-20 mb-2 px-6  max-w-screen-2xl">
       
       <div className="navbar-start space-x-2">
         <NavLink to={"/"}>
           <h2 className="text-3xl font-bold">
-            Shuvro.
+            Shuvro.<span className="text-info">Dev</span>
           </h2>
         </NavLink>
       </div>
