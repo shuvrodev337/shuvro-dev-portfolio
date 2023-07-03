@@ -3,7 +3,6 @@ import {projects} from "../../../constants/index";
 import ProjectCard from "./ProjectCard";
 
 const MyProjects = () => {
-  console.log(projects);
   return (
     <div className="max-w-screen-xl mx-auto">
       <SectionTitle

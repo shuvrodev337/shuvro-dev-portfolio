@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./ProjectCard.css"
+import { FaServer,FaGithub,FaExternalLinkAlt } from "react-icons/fa";
+
 const ProjectCard = ({project}) => {
     const {name,description,tags,image,live_site, source_code_client ,source_code_server} = project
     return (
@@ -18,9 +20,15 @@ const ProjectCard = ({project}) => {
               {/* <button className="btn btn-info">Github</button>
               <button className="btn btn-info">Live Site</button> */}
 
-              <Link className="btn btn-info"  to={live_site} target="_blank">Live Site</Link>
-              <Link className="btn btn-info"  to={source_code_client} target="_blank">Client Side Code</Link>
-              <Link className="btn btn-info"  to={source_code_server} target="_blank">Server Side Code</Link>
+              <Link className="btn btn-accent btn-xs sm:btn-sm md:btn-md btn-outline"  to={source_code_server} target="_blank">
+                <FaServer></FaServer>
+                Server Side Code</Link>
+              <Link className="btn btn-success btn-xs sm:btn-sm md:btn-md btn-outline"  to={source_code_client} target="_blank">
+                <FaGithub></FaGithub>
+                Client Side Code</Link>
+              <Link className="btn btn-info btn-xs sm:btn-sm md:btn-md btn-outline"  to={live_site} target="_blank">
+                <FaExternalLinkAlt></FaExternalLinkAlt>
+                Live Site</Link>
             </div>
           </div>
         </div>
