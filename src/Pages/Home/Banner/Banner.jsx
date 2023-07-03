@@ -1,9 +1,11 @@
 
+import { Link } from 'react-router-dom';
 import profilePic from '../../../assets/IMG_20210612_201527-removebg-preview.png'
-import { FaLinkedin,FaGithub } from "react-icons/fa";
+import { FaLinkedin,FaGithub ,FaDownload} from "react-icons/fa";
+import resumePdf from "../../../assets/shuvro-dev-mondal-resume.pdf"
 const Banner = () => {
   return (
-    <div className="hero min-h-screen ">
+    <div className="hero min-h-screen " id='banner'>
       <div className="hero-content flex-col lg:flex-row-reverse gap-6 ">
         <div className='w-1/2 flex justify-center items-center '>
         <img
@@ -19,8 +21,11 @@ const Banner = () => {
           <p className="py-6">
           I am a Web Developer, based in Bangladesh. I specialize in creating modern, responsive web applications using React.js, MongoDB, Express.js and Node.js.
           </p>
-          <button className="btn btn-info">Contact Me</button>
-         
+          <div className='flex gap-2 me-auto'>
+          <Link to={'https://drive.google.com/file/d/16MU8NVxy4pJE1JRriRfSqRrdFWG_xpJ3/view?usp=sharing'} className="btn btn-outline btn-info" target='_blank'>View Resume</Link>
+          <a  href={resumePdf} download className="btn btn-accent" >Download<FaDownload></FaDownload></a>
+          </div>
+        
         </div>
       </div>
     </div>

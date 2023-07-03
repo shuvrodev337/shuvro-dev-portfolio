@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCard";
 
 const MyProjects = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto" id="projects">
       <SectionTitle
         sectionHeader={"My Projects"}
-        sectionSubHeader={"Projects I have built"}
+        // sectionSubHeader={"Projects I have built"}
       ></SectionTitle>
    <div className="space-y-6">
    {

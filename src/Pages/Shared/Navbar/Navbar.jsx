@@ -1,20 +1,28 @@
 import { NavLink } from "react-router-dom";
-
+import { Link} from 'react-scroll'
 const Navbar = () => {
   const centerNavItems = (
     <>
-      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/"}>Home</NavLink>
+      <Link className={` hover:text- text-[18px] font-medium cursor-pointer`} spy={true} smooth={true} offset={-100} duration={500} to="banner">Home</Link>
+      <Link className={` hover:text- text-[18px] font-medium cursor-pointer`} spy={true} smooth={true} offset={-100} duration={500} to="projects">Projects</Link>
+      <Link className={` hover:text- text-[18px] font-medium cursor-pointer`} spy={true} smooth={true} offset={-100} duration={500} to="about-me">About Me</Link>
+      <Link className={` hover:text- text-[18px] font-medium cursor-pointer`} spy={true} smooth={true} offset={-100} duration={500} to="skills">My Skills</Link>
+
+
+      {/* <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/"}>Home</NavLink>
       <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/projects"}>Projects</NavLink>
-      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/about-me"}>About Me</NavLink>
+      <NavLink className={`${({ isActive }) => (isActive ? "text-white" : "text-secondary")} hover:text- text-[18px] font-medium cursor-pointer`} to={"/about-me"}>About Me</NavLink> */}
       
     </>
   );
   const endNavItems = <>
-      <NavLink className={'btn btn-info'} to={"/"}>Contact Me</NavLink>
+      <Link className={` hover:text- text-[18px] font-medium cursor-pointer`} spy={true} smooth={true} offset={-100} duration={500} to={"contact-me"}>Contact Me</Link>
+
+      {/* <NavLink className={'btn btn-info'} to={"/"}>Contact Me</NavLink> */}
 
   </>
   return (
-    <div className="navbar h-20 mb-2 px-6  max-w-screen-2xl">
+    <div className="navbar h-20 mb-2 px-6  max-w-screen-2xl fixed z-10 bg-white  shadow-lg">
       
       <div className="navbar-start space-x-2">
         <NavLink to={"/"}>
