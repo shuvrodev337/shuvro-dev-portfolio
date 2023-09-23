@@ -12,7 +12,7 @@ const ProjectCard = ({project}) => {
       easing: 'ease-in-out'
     });
   }, []);
-    const {name,description,tags,image,live_site, source_code_client ,source_code_server} = project
+    const {name,description,image,live_site, source_code_client ,source_code_server} = project
     return (
        
         <div className="card lg:card-side bg-base-100 shadow-xl  justify-center" data-aos='fade-up'>

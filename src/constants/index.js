@@ -30,6 +30,7 @@ import {
 import samurai from '../assets/projects-images/samurai.png'
 import toy from '../assets/projects-images/toy.png'
 import cook from '../assets/projects-images/cook.png'
+import taskManager from '../assets/projects-images/task-manager.png' 
 export const navLinks = [
   {
     id: "about",
@@ -278,6 +279,29 @@ const projects = [
     live_site: 'https://cook-like-a-chef-89700.web.app/',
     source_code_client: "https://github.com/shuvrodev337/cook--like-a-chef-client",
     source_code_server: "https://github.com/shuvrodev337/cook-like-a-chef-server",
+  },
+  {
+    name: "Task Manager",
+    description:
+      "This is a Task manager website where Users can sign up and add, view, delete tasks and perform CRUD operations for task management. Task Drag and Drop feature through various stages of task completion.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskManager,
+    live_site: 'https://task-manager-3fd7b.web.app/',
+    source_code_client: "https://github.com/shuvrodev337/task-manager-client",
+    source_code_server: "https://github.com/shuvrodev337/task-manager-server",
   },
 ];
 
