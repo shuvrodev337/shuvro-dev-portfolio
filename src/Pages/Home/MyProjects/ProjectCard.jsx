@@ -1,12 +1,21 @@
 import { Link } from "react-router-dom";
 import "./ProjectCard.css"
 import { FaServer,FaGithub,FaExternalLinkAlt } from "react-icons/fa";
-
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const ProjectCard = ({project}) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  }, []);
     const {name,description,tags,image,live_site, source_code_client ,source_code_server} = project
     return (
        
-        <div className="card lg:card-side bg-base-100 shadow-xl  justify-center">
+        <div className="card lg:card-side bg-base-100 shadow-xl  justify-center" data-aos='fade-up'>
           <div className="md:w-1/2 project-img">
             <img
               src={image}
@@ -17,8 +26,7 @@ const ProjectCard = ({project}) => {
             <h2 className="card-title">{name}</h2>
             <p>{description}</p>
             <div className="card-actions justify-end">
-              {/* <button className="btn btn-info">Github</button>
-              <button className="btn btn-info">Live Site</button> */}
+             
 
               <Link className="btn btn-accent btn-xs sm:btn-sm md:btn-md btn-outline"  to={source_code_server} target="_blank">
                 <FaServer></FaServer>

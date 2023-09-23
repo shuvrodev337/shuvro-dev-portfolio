@@ -1,8 +1,18 @@
 import Lottie from "lottie-react";
 import developer from "../../../assets/developer.json";
 import SectionTitle from "../../../components/SectionTitle";
-
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const AboutMe = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  }, []);
   return (
     <div id="about-me">
       <SectionTitle sectionHeader={"About Me"}></SectionTitle>
@@ -14,14 +24,14 @@ const AboutMe = () => {
             loop={true}
           />
         </div>
-        <div className="md:w-1/2 px-4">
+        <div className="md:w-1/2 px-4"  data-aos="fade-up">
           <h1 className="text-3xl font-bold">
             A dedicated MERN stack Web Developer, based in Dhaka,Bangladesh
           </h1>
           <p className="py-6">
-            I am Shuvro Dev Mondal, I am from Gopalganj, currently based in
-            Dhaka, Bangladesh. I have studied BBA from North South University.
-            Although I didn&apos;t have a chance to study computer science , I
+            I am Shuvro Dev Mondal, I am originally from Gopalganj, currently based in
+            Dhaka, Bangladesh. I have studied BBA from North South University, Dhaka.
+            Although I didn&apos;t have the chance to study computer science, I
             always had the desire to work on the field of computers and
             technology.That is why I decided to pursue my career in Programming
             and web development.

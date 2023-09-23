@@ -10,7 +10,7 @@ const Footer = () => {
             <FaLinkedin className="text-blue-900"></FaLinkedin>
           </Link>
           <Link to={"https://github.com/shuvrodev337"} target="_blank">
-            <FaGithub className="text-slate-800"></FaGithub>
+            <FaGithub className="text-gray-500"></FaGithub>
           </Link>
 
           <Link to={"https://www.facebook.com/shuvrosadheen"} target="_blank">
