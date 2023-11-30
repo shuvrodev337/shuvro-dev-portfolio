@@ -26,19 +26,18 @@ const AboutMe = () => {
         </div>
         <div className="md:w-1/2 px-4"  data-aos="fade-up">
           <h1 className="text-3xl font-bold">
-            A dedicated MERN stack Web Developer, based in Dhaka,Bangladesh
+            A dedicated Web Developer, based in Gopalgonj,Bangladesh.
           </h1>
           <p className="py-6">
-            I am Shuvro Dev Mondal, I am originally from Gopalganj, currently based in
-            Dhaka, Bangladesh. I have studied BBA from North South University, Dhaka.
+            I am Shuvro Dev Mondal, based in Gopalgonj, Bangladesh. I have studied BBA from North South University, Dhaka.
             Although I didn&apos;t have the chance to study computer science, I
-            always had the desire to work on the field of computers and
-            technology.That is why I decided to pursue my career in Programming
+            I always had the desire to work on the field of computer and
+            technology.That is why I decided to pursue my career in programming
             and web development.
           </p>
           <p className="py-6">
-            Since then I have been learning the basics of javascript, ReactJs,
-            nodejs, mongodb, express js, Authentication, git, github and various
+            Since then I have been learning HTML, CSS, TailwindCSS, Bootstrap, javascript, Typescript, ReactJs, NextJS,
+            Nodejs, Mongodb, Express js, Authentication, Git-github and various
             web development tools and technologies.
           </p>
           <p className="py-6">
@@ -50,7 +49,7 @@ const AboutMe = () => {
           </p>
           <p className="py-6">
             Outside of coding I like to spend most of my time with my family.I
-            like watching sports like football, cricket on tv. I try to watch a
+            like watching sports on TV. I try to watch a
             movie once a week. I also love to travel, I love to play football,
             cricket with my friends on weekends.
           </p>

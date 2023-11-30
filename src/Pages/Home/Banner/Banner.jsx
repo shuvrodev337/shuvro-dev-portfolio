@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import profilePic from '../../../assets/IMG_20210612_201527-removebg-preview.png'
 import { FaLinkedin,FaGithub ,FaDownload, FaFacebook} from "react-icons/fa";
-import resumePdf from "../../../assets/shuvro-resume-frontend.pdf"
+import resumePdf from "../../../assets/shuvro-resume-Web-developer.pdf"
 import { Fade } from "react-awesome-reveal";
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
@@ -34,10 +34,10 @@ const Banner = () => {
       <Cursor cursorColor='black' />
       </h1>
           <p className="py-6">
-          I am based in Dhaka, Bangladesh. I specialize in creating modern, responsive web applications using React.js, MongoDB, Express.js and Node.js.
+          I am based in Gopakgonj, Bangladesh. I specialize in creating modern, responsive web applications. 
           </p>
           <div className='flex gap-2 me-auto'>
-          <Link to={'https://drive.google.com/file/d/1wNEGHmynHGw1eDA39TbrLTso7d0o_99u/view?usp=sharing'} className="btn btn-outline btn-info" target='_blank'>View Resume</Link>
+          <Link to={'https://drive.google.com/file/d/1tecO3AXuRwJ5BIhKRm0q_j8qp04IZ3Ra/view?usp=sharing'} className="btn btn-outline btn-info" target='_blank'>View Resume</Link>
           <a  href={resumePdf} download className="btn btn-accent" >Download<FaDownload></FaDownload></a>
           </div>
           <div className='text-3xl flex gap-4 my-6 me-auto'>

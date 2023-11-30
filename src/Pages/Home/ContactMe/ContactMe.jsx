@@ -58,7 +58,7 @@ const ContactMe = () => {
             </p>
           </div>
           <div className="flex gap-4 items-center">
-              <FaHome className="text-2xl"></FaHome> Dhaka, Bangladesh
+              <FaHome className="text-2xl"></FaHome> Gopalgonj, Bangladesh
             <p>
             </p>
           </div>
