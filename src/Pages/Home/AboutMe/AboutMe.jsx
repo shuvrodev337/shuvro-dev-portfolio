@@ -32,12 +32,12 @@ const AboutMe = () => {
             I am Shuvro Dev Mondal, based in Gopalgonj, Bangladesh. I have studied BBA from North South University, Dhaka.
             Although I didn&apos;t have the chance to study computer science, I
             I always had the desire to work on the field of computer and
-            technology.That is why I decided to pursue my career in programming
+            technology.That is why I have decided to pursue my career in programming
             and web development.
           </p>
           <p className="py-6">
-            Since then I have been learning HTML, CSS, TailwindCSS, Bootstrap, javascript, Typescript, ReactJs, NextJS,
-            Nodejs, Mongodb, Express js, Authentication, Git-github and various
+            Since then I have been learning HTML, CSS, TailwindCSS, Bootstrap, javascript, Typescript, ReactJS, Next.JS,
+            Node.js, Express.js,MongoDB, Mongoose, Authentication and authorization, Git & github and various other
             web development tools and technologies.
           </p>
           <p className="py-6">
@@ -48,9 +48,8 @@ const AboutMe = () => {
             remarks.
           </p>
           <p className="py-6">
-            Outside of coding I like to spend most of my time with my family.I
-            like watching sports on TV. I try to watch a
-            movie once a week. I also love to travel, I love to play football,
+            Outside of coding, I like to spend most of my time with my family.I
+            like watching news, sports and movies on TV. I love to travel, I also love to play football,
             cricket with my friends on weekends.
           </p>
         </div>

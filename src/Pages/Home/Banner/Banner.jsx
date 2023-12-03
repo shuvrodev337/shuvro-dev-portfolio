@@ -8,7 +8,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ['MERN Stack Developer', 'Front-End Developer', 'React.Js Developer','Web Developer'],
+    words: ['MERN Stack Developer.', 'Front-End Developer.', 'ReactJs Developer.','Web Developer.'],
     loop: 10,
     onLoopDone: () => console.log(`loop completed after 10 runs.`)
   })
@@ -30,11 +30,11 @@ const Banner = () => {
         <div className=' flex flex-col items-center md:items-start' >
           <h1 className="text-5xl ">Hi, I am Shuvro Dev Mondal.</h1>
           <h1 className="text-2xl my-2">
-          <span>{text}</span>
+          I am a <span>{text}</span>
       <Cursor cursorColor='black' />
       </h1>
           <p className="py-6">
-          I am based in Gopakgonj, Bangladesh. I specialize in creating modern, responsive web applications. 
+          Based in Gopalgonj, Bangladesh. I specialize in creating modern, responsive full stack web applications. 
           </p>
           <div className='flex gap-2 me-auto'>
           <Link to={'https://drive.google.com/file/d/1tecO3AXuRwJ5BIhKRm0q_j8qp04IZ3Ra/view?usp=sharing'} className="btn btn-outline btn-info" target='_blank'>View Resume</Link>

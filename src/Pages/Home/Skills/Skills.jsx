@@ -13,9 +13,9 @@ const Skills = () => {
         });
       }, []);
     return (
-        <div className="w-9/12 mx-auto" id="skills" data-aos="fade-up">
+        <div className="w-1/2 md:w-9/12 mx-auto" id="skills" data-aos="fade-up">
             <SectionTitle sectionHeader={'My skills'}></SectionTitle>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ">
                 {
                     technologies.map((technology,i)=><SkillCard key={i} technology={technology}></SkillCard>)
                 }
